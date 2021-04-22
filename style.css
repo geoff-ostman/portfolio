@@ -20,7 +20,7 @@ body {
 
 /* HEADER STYLES*/
 .header {
-    padding: 20px 35px;
+    padding: 25px 35px;
     background-color: var(--secondary);
     display: flex;
     justify-content: space-between;
@@ -56,6 +56,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: bold;
     font-size: 2.1vw;
+    text-decoration: none;
 }
 
 /* NAVIGATION HOVER */
@@ -67,15 +68,14 @@ header nav ul li a:hover {
   }
 /* JUMBOTRON */
 .jumbotron {
-    padding: 300px 15px;
+    padding: 150px 15px;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/70/Fenway_Park_2009_%282%29.jpg");
     background-size: cover;
-    background-position: inherit;
+    background-position: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    background-attachment: fixed;
     background-position: 20%;
 }
 
@@ -88,4 +88,71 @@ header nav ul li a:hover {
 .jumbotron p {
     color: var(--tertiary);
     text-shadow: 0 0 5px var(--secondary);
+}
+  
+  /* CONTENT */
+  lansdowne-street, kenmore-square, citgo-sign {
+    color: var(--primary);  
+    background-color: var(--tertiary);
+    background-size: cover;
+    background-position: inherit;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background-attachment: fixed;
+    background-position: 20%;
+  }
+
+  .content h2 {
+      color: var(--primary)
+  }
+
+  .content p {
+      color: var(--secondary);
+  }
+
+/* FOOTER */
+footer {
+    padding: 10px 15px 10px 15px;
+    border: 0;
+    background-color: var(--secondary);
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+  }
+  
+.footer h2 {
+    color: var(--primary);
+    font-size: 24px;
+    margin: 0;
+  }
+  
+.footer div {
+    color: var(--tertiary);
+    line-height: 1.2;
+  }
+
+.footer label {
+    color: var(--tertiary);
+    line-height: 1.2;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.footer a {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--primary);
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.footer img {
+    max-width: 25%;
+    max-height: 25%;
+    align-content: center;
 }
