@@ -1,0 +1,91 @@
+/* VARIABLES */
+:root {
+    --primary: #BD3039;
+    --secondary: #0C2340;
+    --tertiary:#ffff;
+}
+
+/* BORDER */
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+/* BODY STYLES */
+body {
+    color: var(--secondary);
+    font-family: 'Courier New', Courier, monospace, Georgia, Times, 'Times New Roman', serif;
+  }
+
+/* HEADER STYLES*/
+.header {
+    padding: 20px 35px;
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.header h1 {
+    color: var(--primary);
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.header nav {
+    color: var(--tertiary);
+    margin: 15px 10px;
+    line-height: 1.2;
+}
+
+.header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: var(--primary);
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 2.1vw;
+}
+
+/* NAVIGATION HOVER */
+header nav ul li a:hover {
+    background: var(--tertiary);
+    color: var(--primary);
+    border-radius: 5px;
+    text-shadow: 0 0 5px var(--tertiary)
+  }
+/* JUMBOTRON */
+.jumbotron {
+    padding: 300px 15px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/70/Fenway_Park_2009_%282%29.jpg");
+    background-size: cover;
+    background-position: inherit;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: 20%;
+}
+
+.jumbotron h2 {
+    color: var(--secondary);
+    text-shadow: 0 0 5px var(--secondary);
+    line-height: 1.2;
+}
+
+.jumbotron p {
+    color: var(--tertiary);
+    text-shadow: 0 0 5px var(--secondary);
+}
