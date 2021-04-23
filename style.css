@@ -67,59 +67,111 @@ header nav ul li a:hover {
     text-shadow: 0 0 5px var(--tertiary)
   }
 /* JUMBOTRON */
-.jumbotron {
-    padding: 150px 15px;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/70/Fenway_Park_2009_%282%29.jpg");
+.hero {
+    padding: 100 auto;
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    background-position: 20%;
 }
 
-.jumbotron h2 {
+.hero h2 {
     color: var(--secondary);
     text-shadow: 0 0 5px var(--secondary);
     line-height: 1.2;
 }
 
-.jumbotron p {
+.hero p {
     color: var(--tertiary);
     text-shadow: 0 0 5px var(--secondary);
 }
-  
-  /* CONTENT */
-  lansdowne-street, kenmore-square, citgo-sign {
-    color: var(--primary);  
-    background-color: var(--tertiary);
+
+.hero {
+    background-color: var(--primary);
     background-size: cover;
-    background-position: inherit;
+    background-position: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: stretch;
+    align-items: flex-start;
+  }
+  
+  .hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  
+  .hero-cta h2 {
+    font-style: bold;
+    color: var(--primary-color);
+    text-shadow: var(--primary);
+    font-size: 55px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* CONTENT */
+.content {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(./images/Fenway_Park_2009_\(2\).jpeg);
+    background-position: top;
     background-attachment: fixed;
-    background-position: 20%;
+    color: var(--tertiary);
+}
+  
+  .cards {
+    margin: 20px;
+    flex: 1;
+    color: var(--primary-color);
+  }
+  
+  .cards img {
+    padding: 0 auto;
+    margin-bottom: 0 auto;
+    width: 75%;
+  }
+  
+  .card-bio {
+    padding: 25px;
+    line-height: 1.3;
+  }
+  
+  .card-bio h3 {
+    font-size: 24px;
+    text-shadow: var(--secondary) 1px 0 10px;
+  }
+  
+  .card-bio h4 {
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card-bio p {
+    font-size: 15px;
   }
 
-  .content h2 {
-      color: var(--primary)
+  .card-content {
+    color: var(--tertiary);
+    background-color: var(--primary);
+    opacity: .9;
   }
 
-  .content p {
-      color: var(--secondary);
+  .card-content a {
+    text-decoration: none;
+    color: var(--tertiary)
   }
 
 /* FOOTER */
-footer {
-    padding: 10px 15px 10px 15px;
-    border: 0;
+.footer {
+    padding: 25px 35px;
     background-color: var(--secondary);
-    display: flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
+    position: bottom;
   }
   
 .footer h2 {
@@ -138,21 +190,16 @@ footer {
     line-height: 1.2;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 } 
 
 .footer a {
     font-size: 20px;
     font-weight: bold;
     color: var(--primary);
-    line-height: 1.2;
+    line-height: 2;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     text-decoration: none;
-}
-
-.footer img {
-    max-width: 25%;
-    max-height: 25%;
-    align-content: center;
 }
