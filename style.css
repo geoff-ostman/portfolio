@@ -174,18 +174,14 @@ header nav ul li a:hover {
 
   .card-content a {
     text-decoration: none;
-    color: var(--tertiary)
+    color: var(--secondary)
   }
 
   .card-content-emoji {
     text-align: center;
     background-color: var(--primary);
+    opacity: .9;
   }
-
-/* CONTACT ME - */
-.contact {
-  text: 
-}
 
 /* SARCOMA - FOOTER */
 .footer {
@@ -400,7 +396,7 @@ header nav ul li a:hover {
 
   .card-content a {
     text-decoration: none;
-    color: var(--tertiary)
+    color: var(--secondary)
   }
 
   .card-content-emoji {
