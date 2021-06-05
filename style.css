@@ -72,10 +72,15 @@ header nav ul li a:hover {
   }
 /* JUMBOTRON */
 .hero {
+    align-items: center;
     padding: 100 auto;
     background-size: cover;
     background-position: center;
-}
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
 
 .hero h2 {
     color: var(--secondary);
@@ -87,20 +92,9 @@ header nav ul li a:hover {
     color: var(--tertiary);
     text-shadow: 0 0 5px var(--secondary);
 }
-
-.hero {
-    background-color: var(--primary);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-  }
-  
   .hero-cta {
     width: 35%;
-    text-align: right;
+    text-align: center;
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
@@ -111,7 +105,7 @@ header nav ul li a:hover {
     font-style: bold;
     color: var(--primary-color);
     text-shadow: var(--primary);
-    font-size: 55px;
+    font-size: 36px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
@@ -294,10 +288,15 @@ header nav ul li a:hover {
   }
 /* JUMBOTRON */
 .hero {
-    padding: 100 auto;
-    background-size: cover;
-    background-position: center;
-}
+  align-items: center;
+  padding: 100 auto;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--primary);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
 
 .hero h2 {
     color: var(--secondary);
@@ -309,23 +308,12 @@ header nav ul li a:hover {
     color: var(--tertiary);
     text-shadow: 0 0 5px var(--secondary);
 }
-
-.hero {
-    background-color: var(--primary);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-  }
   
   .hero-cta {
     width: 35%;
-    text-align: right;
+    text-align: center;
     margin: 3.5%;
     color: #fff;
-    font-size: 18px;
     line-height: 1.2;
   }
   
@@ -333,7 +321,7 @@ header nav ul li a:hover {
     font-style: bold;
     color: var(--primary-color);
     text-shadow: var(--primary);
-    font-size: 55px;
+    font-size: 36px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
